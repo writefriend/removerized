@@ -53,39 +53,6 @@ export const MenuWithButton: React.FC<MainButtonProps> = ({ items }) => {
               )}
 
               <Separator className="mb-60 mt-20"></Separator>
-
-              <Link
-                href={siteConfig.links.github}
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center gap-2 text-muted-foreground"
-                role="menuitem"
-              >
-                <Icons.gitHub className="size-4" />
-                GitHub
-              </Link>
-
-              <Link
-                href={siteConfig.links.twitter}
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center gap-2 text-muted-foreground"
-                role="menuitem"
-              >
-                <Icons.X className="size-4 fill-muted-foreground" />X
-                {"(Twitter)"}
-              </Link>
-
-              <Link
-                href={siteConfig.links.telegram}
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center gap-2 text-muted-foreground"
-                role="menuitem"
-              >
-                <Icons.Telegram className="size-4 fill-muted-foreground" />
-                Telegram
-              </Link>
             </div>
           </ScrollArea>
 
