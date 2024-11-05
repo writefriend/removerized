@@ -33,7 +33,7 @@ export const MenuWithButton: React.FC<MainButtonProps> = ({ items }) => {
         <SheetContent>
           <a href="/" className="flex items-center">
             <Icons.logo className="size-4"></Icons.logo>
-            <span className="ml-2 font-bold">removerized</span>
+            <span className="ml-2 font-bold">foru remove</span>
           </a>
 
           <ScrollArea className="my-4 h-[calc(100vh-9rem)] pb-10 pl-2">
